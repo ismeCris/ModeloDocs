@@ -1,9 +1,7 @@
 site_name: Documentações
 site_description: Documentação interna 
 site_author: Altomax
-
-#  GitHub Pages:
-# site_url: https://SEU-USUARIO.github.io/NOME-DO-REPO/
+site_url: https://ismecris.github.io/ModeloDocs/
 
 theme:
   name: material
