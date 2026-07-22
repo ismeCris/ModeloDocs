@@ -7,6 +7,8 @@ theme:
   name: material
   language: pt-BR
   palette:
+   theme:
+  palette:
     # Modo claro
     - scheme: default
       primary: indigo
@@ -16,10 +18,10 @@ theme:
         name: Mudar para modo escuro
     # Modo escuro
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: blue grey
       toggle:
-        icon: material/weather-sunny 
+        icon: material/weather-sunny
         name: Mudar para modo claro
   features:
     - navigation.tabs
