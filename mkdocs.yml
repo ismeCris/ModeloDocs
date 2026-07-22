@@ -19,7 +19,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-sunny 
         name: Mudar para modo claro
   features:
     - navigation.tabs
