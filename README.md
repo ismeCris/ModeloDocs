@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Site de Documentação da Equipe
 
 Site de documentação criado com [MkDocs](https://www.mkdocs.org/) +
@@ -89,6 +89,3 @@ encrypted: true
 Assim as imagens nunca ficam espalhadas pelo projeto — tudo centralizado numa
 única pasta.
 =======
-# ModeloDocs
-Paginas de documentação com mkdocs
->>>>>>> ad1edbed1815d7a3ba4291623689310282bf54d4
