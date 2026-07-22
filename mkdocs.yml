@@ -1,0 +1,62 @@
+site_name: Documentações
+site_description: Documentação interna 
+site_author: Altomax
+
+#  GitHub Pages:
+# site_url: https://SEU-USUARIO.github.io/NOME-DO-REPO/
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    # Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: pt
+  - encryptcontent:
+      title_prefix: "🔒 "
+      summary: "Esta página é restrita à equipe de desenvolvimento."
+      placeholder: "Digite a senha"
+      decryption_failure_message: "Senha incorreta."
+      remember_password: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Telas SGI: primeiros-passos.md
+  - IT: arquitetura.md
+  - Perguntas Frequentes: faq.md
+  - Area2 🔒: dev/index.md

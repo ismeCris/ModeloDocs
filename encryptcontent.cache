@@ -1,0 +1,6 @@
+kdf_iterations: 100000
+obfuscate: {}
+password:
+  TROQUE-ESTA-SENHA: 6c443bbd6639e97ac00b86a1859dabc4568d4f4b08d0f9a08a6ba6f186ea59e0;7e51c504895b4384a45b208cff262958;ed51ae5a024e4d8e4d5435053bfce015fc4703e7cfefd55ac2655897ce72aa96
+  senha: 708b1609c9bbf73ef5b8dcf9ca9ef2e36871663ecf73effe547b824a31b5041a;e1c0b793beb46aa4de1d80db21d5bef4;b7e94be513e96e8c45cd23d162275e5a12ebde9100a425c4ebcdd7fa4dcd897c
+userpass: {}
