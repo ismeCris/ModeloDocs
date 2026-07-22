@@ -54,7 +54,8 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Telas SGI: primeiros-passos.md
+  - Telas SGI:
+      - Pedidos: telas-sgi/Pedidos.md
   - IT: arquitetura.md
   - Perguntas Frequentes: faq.md
   - Area2 🔒: dev/index.md
